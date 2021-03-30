@@ -65,7 +65,7 @@ document.querySelector("#mute").addEventListener("click", function() {
 });
 
 document.querySelector("#skip").addEventListener("click", function() {
-	if(video.currentTime < video.duration - 15){
+	if(video.currentTime < video.duration -15){
 		video.currentTime += 15
 	}
 	else{
